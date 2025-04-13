@@ -1,0 +1,15 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.0", "wheel>=0.37.1"]
+
+[project]
+name = "image_box_finder"
+version = "0.0.1"
+description = "This project finds boxes in a given source image and overlays red-lined boxes on the given source image where boxes are found"
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Richard Lyders", email = "Richard@Lyders.com"},
+]
+keywords = ["image-processing", "red-lining"]
